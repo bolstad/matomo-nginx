@@ -1,7 +1,7 @@
 server {
     listen 80;
     server_name singlesite.com;
-    root /var/www/singlesite.com;
+    root /var/www/matamo;
 
     add_header Referrer-Policy origin always; # make sure outgoing links don't show the URL to the Matomo instance
     add_header X-Content-Type-Options "nosniff" always;
